@@ -1,0 +1,114 @@
+
+/* COMPONENT STYLING */
+
+h1 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.heading-text {
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 8px;
+    margin: 8px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+#ac, #delete {
+    background-color: darkred;
+}
+
+#ac:hover, #delete:hover {
+    background-color: red;
+}
+
+.display-screen {
+    padding: 8px 16px;
+    text-align: right;
+    background-color: darkolivegreen;
+    color: white;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+/* Positioning / Layout */
+
+.project-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    border-radius: 8px;
+    border: 2px solid lightslategray;
+
+}
+
+.project-container .heading-text {
+    text-align: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    max-width: 480px;
+    border: 1px solid lightslategray;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.button-grid {
+    display: flex;
+
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+body {
+    padding: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
